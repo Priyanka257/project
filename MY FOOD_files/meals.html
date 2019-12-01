@@ -1,0 +1,93 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" a href ="fonts/css/all.css"/>
+<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+<link  rel="stylesheet" a href="main.css"/>
+<script src ="js/bootstrapjquery.js"></script>
+<script src ="js/bootstrap.js"></script>
+<script src ="js/proper.js"></script>
+
+<style>
+.content {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding:1em;
+    height: auto;
+    font-size:2em ;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+</style>
+<title> MY FOOD </title>
+</head>
+
+
+<body onload="fetchData()">
+<div id="Header">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <a href="#" class="navbar-brand"><h3>Dreamiaz</h3></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      
+      <li class="nav-item ">
+        <a class="nav-link" href="cocktail.html">Cocktails</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Meal.html">Meals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Restuarent.html">Resturants</a>
+      </li>
+     
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0"> -->
+      <input class="form-control mr-sm-2" placeholder="Search by Location" aria-label="Search" id="location">
+      <button class="btn btn-outline-success my-2 my-sm-0" onclick="searchData()">Search</button>
+    <!-- </form> -->
+  </div>
+</nav>
+<div >
+<div class="content">
+   <center><font color="white" >Dive Into The Ultimate Foody Action</font></center>
+  </div>
+<video autoplay muted loop controls>
+    <source src="food.mp4 " type="video/mp4">
+</video>
+
+
+
+<div class="container">
+    
+      
+          <div id="resDetails">
+ 
+            
+          </div>
+  
+</div>
+
+</div>
+
+<script type="text/javascript" src="resturant.js"></script>
+</body> 
+</html>
